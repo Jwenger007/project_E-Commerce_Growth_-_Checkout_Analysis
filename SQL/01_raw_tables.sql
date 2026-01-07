@@ -1,3 +1,10 @@
+-- Purpose:
+-- Define raw tables that mirror the structure of the source CSV files.
+-- These tables contain unmodified data and serve as the foundation
+-- for all downstream cleaning and transformations.
+-- No business logic or calculations are applied at this stage.
+
+
 CREATE TABLE raw.orders (
     order_id TEXT,
     customer_id TEXT,
